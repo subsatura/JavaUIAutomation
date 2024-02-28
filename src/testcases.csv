@@ -1,0 +1,74 @@
+Test Case ID;Test Case Description;Test Steps;Test Data;Expected Result;Actual Result;Status
+A01;Test redirection to registration page;"1. Go to website https://qa-course-01.andersenlab.com/login
+2. Click on button Registration";;Redirecting to https://qa-course-01.andersenlab.com/registration;Successful redirecting;passed
+A02;Login test;"1. Go to website https://qa-course-01.andersenlab.com/login
+2. Enter registered email and password ";"Email ?  sample@gmail.com
+Password ? Sample@123";Redirecting to main My account  page https://qa-course-01.andersenlab.com/;Successful redirecting;passed
+A03;Login test;"1. Go to website https://qa-course-01.andersenlab.com/login
+2. Enter unregistered email and password ";"Email ?  sample@gmail.com
+Password ? Sample@124";Error message displayed if input is indalid;Error message was displayed;passed
+A04;Test redirection to the main page if logged in;"1. Login successfully
+2. Go to https://qa-course-01.andersenlab.com/login";;Redirecting to main My account  page https://qa-course-01.andersenlab.com/;Successful redirecting;passed
+A05;Test redirection to the main page if logged in;"1. Login successfully
+2. Go to https://qa-course-01.andersenlab.com/registration";;Redirecting to main My account  page https://qa-course-01.andersenlab.com/;Successful redirecting;passed
+A06;Logout test;"1. Login successfully
+2. Click on logout button
+3. Click yes";;Message to confirm logout, logout;Successful redirecting to login page;passed
+A07;Redirect to editAccount page;"1. Login successfully
+2. Click on Edit account button";;Redirecting to https://qa-course-01.andersenlab.com/editAccount;Successful redirecting, but page is empty if birth date is less then 12 in account;passed
+B01;Test registration;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Fill all other fields correctly
+3. Click on Sumbit button";"First Name ?  Ivan
+Last Name ?  Ivanov
+Date of birth ? 2024-02-28
+Email ?  sample@gmail.com
+Password ? Sample@123";Redirecting to main page https://qa-course-01.andersenlab.com/;Successful redirecting;
+B02;To check is each filled input field ;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Click on each field and left them empty";;Error message displayed if input is empty. Sumbit button not clickable;Error message was displayed. Sumbit button not clickable;passed
+B03;Test input validation for email field;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Enter an invalid email format
+3. Fill all other fields correctly
+4. Click on Sumbit button";"First Name ?  Ivan
+Last Name ?  Ivanov
+Date of birth ? 2024-02-28
+Email ?  aaa
+Password ? Sample@123";Error message displayed indicating invalid email;Error message was displayed;passed
+B04;Test input validation for First Name and Last Name fields;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Enter an invalid first and last name
+3. Fill all other fields correctly
+4. Click on Sumbit button";"First Name ?  Ivan123
+Last Name ?  Ivanov312
+Date of birth ? 2024-02-28
+Email ?  sample@gmail.com
+Password ? Sample@123";Error message displayed if input contains digits;Error message was not displayed, registred successful;failed
+B05;Test input validation for Date of Birth field;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Enter a future date
+3. Fill all other fields correctly
+4. Click on Sumbit button ";"First Name ?  Ivan123
+Last Name ?  Ivanov312
+Date of birth ? 2034-02-28
+Email ?  sample@gmail.com
+Password ? Sample@123";Error message displayed if input date is in the future;Error message was not displayed, registred successful;failed
+B06;Test too long input validation for Password field;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Enter a short password
+3. Fill all other fields correctly
+4. Click on Sumbit button";"First Name ?  Ivan
+Last Name ?  Ivanov
+Date of birth ? 2024-02-28
+Email ?  sample@gmail.com
+Password ? 12345678901234567890";Error message displayed if input password is too long;Error message displayed indicating password too long;passed
+B07;Test too short input validation for Password field;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Enter a short password
+3. Fill all other fields correctly
+4. Click on Sumbit button";"First Name ?  Ivan
+Last Name ?  Ivanov
+Date of birth ? 2024-02-28
+Email ?  sample@gmail.com
+Password ? 1234";Error message displayed if input password is too short;Error message displayed indicating password too short;passed
+B08;Test for double registrastion on the same email;"1. Go to website https://qa-course-01.andersenlab.com/registration
+2. Register once with specific email
+3. Try to register one more time with the same email";"First Name ?  Ivan
+Last Name ?  Ivanov
+Date of birth ? 2024-02-28
+Email ?  sample@gmail.com
+Password ? Sample@123";Error message displayed if email is already registered, registration not completed;Error message is not displayed, registration not completed;partitially passed
