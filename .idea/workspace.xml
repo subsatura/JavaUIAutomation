@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3905ffff-f370-40b7-ae58-21a0b3de0328" name="Changes" comment="000" />
+    <list default="true" id="3905ffff-f370-40b7-ae58-21a0b3de0328" name="Changes" comment="tenth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/DriverSetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task1/PrioritySort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task1/PrioritySort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task2/OddNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task3/parallelismus/ParallelClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task3/parallelismus/ParallelClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task4/task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eleventh/task5/task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testngGroupingHome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testngParallelHome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testngParametersHome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -24,6 +38,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="subsatura" />
+        <option name="repository" value="JavaUIAutomation" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -38,21 +60,39 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DriverSetUp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ninth.fourth.Main.executor": "Run",
     "Application.ninth.second.Main.executor": "Run",
     "Application.ninth.third.Main.executor": "Run",
     "Application.tenth.fourth.Main.executor": "Run",
     "Application.tenth.third.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertionsExample.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngGroupingHome.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngParallelHome.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngParametersHome.xml.executor": "Run",
+    "TestNG.OddNum.executor": "Run",
+    "TestNG.ParallelClass1.executor": "Run",
+    "TestNG.PrioritySort1.executor": "Run",
+    "TestNG.PrioritySort2.executor": "Run",
+    "TestNG.task4.executor": "Run",
+    "TestNG.task4.testMethodWithDataProvider.executor": "Debug",
+    "TestNG.task5.executor": "Run",
     "git-widget-placeholder": "tenth",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexilgi\IdeaProjects\JavaUIAutomation\src\test" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tenth.first.Main" />
@@ -105,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709597636175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tenth">
+      <option name="closed" value="true" />
+      <created>1709597881798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709597881798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +183,7 @@
     <MESSAGE value="testcases added, lesson 9" />
     <MESSAGE value="lesson 10" />
     <MESSAGE value="000" />
-    <option name="LAST_COMMIT_MESSAGE" value="000" />
+    <MESSAGE value="tenth" />
+    <option name="LAST_COMMIT_MESSAGE" value="tenth" />
   </component>
 </project>
