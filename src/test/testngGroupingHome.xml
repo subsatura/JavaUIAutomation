@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OddNumbersGroup">
+    <test name="First Group Tests">
+        <groups>
+            <run>
+                <include name="first"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="eleventh.task2.OddNum"/>
+        </classes>
+    </test>
+    <test name="Second Group Tests">
+        <groups>
+            <run>
+                <include name="second"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="eleventh.task2.OddNum"/>
+        </classes>
+    </test>
+</suite>
