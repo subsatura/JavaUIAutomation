@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterized Tests Suite">
+    <test name="Login Test 1">
+        <parameter name="login" value="subsatura@gmail.com"/>
+        <parameter name="pass" value="21121488"/>
+        <classes>
+            <class name="eleventh.task5.task5"/>
+        </classes>
+    </test>
+    <test name="Login Test 2">
+        <parameter name="login" value="virsli123@gmail.com"/>
+        <parameter name="pass" value="kukorica11"/>
+        <classes>
+            <class name="eleventh.task5.task5"/>
+        </classes>
+    </test>
+    <test name="Login Test 3">
+        <parameter name="login" value="csinalni@gmail.com"/>
+        <parameter name="pass" value="bassyus32"/>
+        <classes>
+            <class name="eleventh.task5.task5"/>
+        </classes>
+    </test>
+</suite>

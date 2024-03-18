@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3905ffff-f370-40b7-ae58-21a0b3de0328" name="Changes" comment="testcases added, lesson 9">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/first/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/fourth/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/second/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/third/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tenth/third/WebElementComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testcases.xlsx" afterDir="false" />
+    <list default="true" id="3905ffff-f370-40b7-ae58-21a0b3de0328" name="Changes" comment="fourteenth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/thirteenth/MyAllureListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_03_2024_1_05_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_03_2024_1_05__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tenth/DriverSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tenth/DriverSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thirteenth/TestCasesAndersen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thirteenth/TestCasesAndersen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thirteenth/TestFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thirteenth/TestFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thirteenth/TestSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thirteenth/TestSecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thirteenth/TestThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thirteenth/TestThird.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +26,41 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="133" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;subsatura&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="subsatura" />
+        <option name="repository" value="JavaUIAutomation" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e4a338cb-e847-427f-bf49-65262f67d7e0" />
+        <option name="url" value="https://github.com/subsatura/JavaUIAutomation.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -44,40 +73,166 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ninth.fourth.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ninth.second.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ninth.third.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tenth.fourth.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tenth.third.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DriverSetUp.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ninth.fourth.Main.executor": "Run",
+    "Application.ninth.second.Main.executor": "Run",
+    "Application.ninth.third.Main.executor": "Run",
+    "Application.tenth.fourth.Main.executor": "Run",
+    "Application.tenth.third.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.JavaUIAutomation [clean].executor": "Run",
+    "Maven.JavaUIAutomation [io.qameta.allure:allure-maven:2.10.0:help].executor": "Run",
+    "Maven.JavaUIAutomation [io.qameta.allure:allure-maven:2.10.0:serve].executor": "Run",
+    "Maven.JavaUIAutomation [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertionsExample.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testng.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngGroupingHome.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngParallelHome.xml.executor": "Run",
+    "TestNG.C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/test/testngParametersHome.xml.executor": "Run",
+    "TestNG.OddNum.executor": "Run",
+    "TestNG.ParallelClass1.executor": "Run",
+    "TestNG.PrioritySort1.executor": "Run",
+    "TestNG.PrioritySort2.executor": "Run",
+    "TestNG.TestCasesAndersen.executor": "Run",
+    "TestNG.TestCasesAndersen.loginTest.executor": "Run",
+    "TestNG.TestCasesAndersen.loginTestA03.executor": "Run",
+    "TestNG.TestCasesAndersen.testInputValidation.executor": "Run",
+    "TestNG.TestCasesAndersen.testInputValidationB04.executor": "Run",
+    "TestNG.TestCasesAndersen.testInputValidationB06.executor": "Run",
+    "TestNG.TestCasesAndersen.testInputValidationB07.executor": "Run",
+    "TestNG.TestCasesAndersen.testRedirectionA04.executor": "Run",
+    "TestNG.TestCasesAndersen.testRedirectionA05.executor": "Run",
+    "TestNG.TestFirst.checkTopScroller.executor": "Run",
+    "TestNG.TestFirst.executor": "Run",
+    "TestNG.TestFirst.visibilityMenu.executor": "Run",
+    "TestNG.TestSecond.executor": "Run",
+    "TestNG.TestSecond.mainTest.executor": "Run",
+    "TestNG.TestThird.executor": "Run",
+    "TestNG.TestThird.mainTest.executor": "Run",
+    "TestNG.task4.executor": "Run",
+    "TestNG.task4.testMethodWithDataProvider.executor": "Debug",
+    "TestNG.task5.executor": "Run",
+    "git-widget-placeholder": "14",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alexilgi/IdeaProjects/JavaUIAutomation/src/main/java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexilgi\IdeaProjects\JavaUIAutomation\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexilgi\IdeaProjects\JavaUIAutomation\src\test\resources" />
+      <recent name="C:\Users\alexilgi\IdeaProjects\JavaUIAutomation\src\test" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tenth.first.Main" />
+    <configuration name="TestCasesAndersen.testInputValidationB04" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaUIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tenth.first.*" />
+          <option name="PATTERN" value="thirteenth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="thirteenth" />
+      <option name="MAIN_CLASS_NAME" value="thirteenth.TestCasesAndersen" />
+      <option name="METHOD_NAME" value="testInputValidationB04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCasesAndersen.testInputValidationB06" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaUIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirteenth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thirteenth" />
+      <option name="MAIN_CLASS_NAME" value="thirteenth.TestCasesAndersen" />
+      <option name="METHOD_NAME" value="testInputValidationB06" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCasesAndersen.testInputValidationB07" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaUIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirteenth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thirteenth" />
+      <option name="MAIN_CLASS_NAME" value="thirteenth.TestCasesAndersen" />
+      <option name="METHOD_NAME" value="testInputValidationB07" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCasesAndersen.testRedirectionA04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaUIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirteenth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thirteenth" />
+      <option name="MAIN_CLASS_NAME" value="thirteenth.TestCasesAndersen" />
+      <option name="METHOD_NAME" value="testRedirectionA04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThird.mainTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaUIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thirteenth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thirteenth" />
+      <option name="MAIN_CLASS_NAME" value="thirteenth.TestThird" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.TestCasesAndersen.testRedirectionA04" />
+        <item itemvalue="TestNG.TestCasesAndersen.testInputValidationB07" />
+        <item itemvalue="TestNG.TestCasesAndersen.testInputValidationB06" />
+        <item itemvalue="TestNG.TestCasesAndersen.testInputValidationB04" />
+        <item itemvalue="TestNG.TestThird.mainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +260,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709149779625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="000">
+      <option name="closed" value="true" />
+      <created>1709597636175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709597636175</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tenth">
+      <option name="closed" value="true" />
+      <created>1709597881798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709597881798</updated>
+    </task>
+    <task id="LOCAL-00004" summary="thirteenth">
+      <option name="closed" value="true" />
+      <created>1710258826909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710258826909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +312,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testcases added, lesson 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="testcases added, lesson 9" />
+    <MESSAGE value="lesson 10" />
+    <MESSAGE value="000" />
+    <MESSAGE value="tenth" />
+    <MESSAGE value="thirteenth" />
+    <MESSAGE value="fourteenth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourteenth" />
   </component>
 </project>
