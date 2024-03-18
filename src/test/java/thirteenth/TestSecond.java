@@ -1,11 +1,17 @@
 package thirteenth;
 
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import tenth.DriverSetUp;
+@Listeners({MyAllureListeners.class})
 
 public class TestSecond {
     private WebDriver driver;
@@ -24,6 +30,9 @@ public class TestSecond {
     }
 
     @Test
+    @Description("Three pages task")
+    @Severity(SeverityLevel.NORMAL)
+    @Feature("WebDriver")
     public void mainTest() {
         FirstTab firstTab = new FirstTab(driver);
         firstTab.goTo("https://www.google.com/search").searchFor("https://www.guinnessworldrecords.com/account/register?").getFirstSearchResultUrlInNewTab();

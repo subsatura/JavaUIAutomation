@@ -1,10 +1,16 @@
 package thirteenth;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import tenth.DriverSetUp;
+@Listeners({MyAllureListeners.class})
 
 public class TestThird {
     private WebDriver driver;
@@ -22,6 +28,9 @@ public class TestThird {
     }
 
     @Test
+    @Description("Login like on video")
+    @Severity(SeverityLevel.NORMAL)
+    @Feature("Login test")
     public void mainTest() {
         AndersenRegPage andersenRegPage = new AndersenRegPage(driver);
         andersenRegPage.goTo()
